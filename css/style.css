@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-position: center;
+  font-family: "Roboto Flex", "Work Sans", sans-serif;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.area-img {
+  width: 100%;
+}
+.area-img .img-wrapper {
+  width: 100vw;
+}
+.area-img .img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
